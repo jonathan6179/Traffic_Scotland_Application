@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tr_primary">#005B96</color>
+    <color name="tr_selected">#2600A3C4</color>
+    <color name="tr_status_live">#2E7D32</color>
+    <color name="tr_status_offline">#B26A00</color>
+    <color name="tr_status_error">#B71C1C</color>
+    <color name="tr_overlay">#E6FFFFFF</color>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/tr_title"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MPDTraffic"
+        tools:targetApi="31"
+        android:usesCleartextTraffic="true">
+
+        <!-- Keys come from local.properties at build time (see README, step 3).
+             They are NOT written in the source code. -->
+        <meta-data android:name="TS_CLIENT_ID" android:value="${TS_CLIENT_ID}" />
+        <meta-data android:name="TS_CLIENT_KEY" android:value="${TS_CLIENT_KEY}" />
+        <meta-data android:name="TS_ROADWORKS_URL" android:value="${TS_ROADWORKS_URL}" />
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="${MAPS_API_KEY}" />
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

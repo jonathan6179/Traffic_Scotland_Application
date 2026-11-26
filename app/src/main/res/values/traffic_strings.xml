@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tr_title">Traffic Scotland</string>
+
+    <string name="nav_incidents">Incidents</string>
+    <string name="nav_roadworks">Roadworks</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_map">Map</string>
+
+    <string name="action_refresh">Refresh now</string>
+    <string name="action_interval">Auto-refresh</string>
+    <string name="interval_1">Every minute (demo)</string>
+    <string name="interval_15">Every 15 minutes</string>
+    <string name="interval_60">Every hour</string>
+    <string name="action_about">About and data source</string>
+
+    <string name="list_header">%1$s (%2$d)</string>
+    <string name="list_empty">Nothing to show yet. If the app has never connected, check the internet connection and the keys in local.properties.</string>
+    <string name="no_description">(no description given)</string>
+    <string name="legend_delays">Delays</string>
+    <string name="legend_long">Long delays</string>
+    <string name="legend_very_long">Very long delays</string>
+
+    <string name="detail_pick">Select an incident or roadworks entry to see its details.</string>
+    <string name="detail_show_on_map">Show on map</string>
+
+    <string name="search_mode_road">By road</string>
+    <string name="search_mode_distance">By distance</string>
+    <string name="road_hint">Road, e.g. M8, A9, A74(M) or a place name</string>
+    <string name="road_search">Search road</string>
+    <string name="road_too_short">Type at least 2 characters</string>
+    <string name="radius_label">Within %1$d km</string>
+    <string name="location_device">My location (coarse)</string>
+    <string name="location_fixed">Fixed: GCU, Glasgow</string>
+    <string name="distance_search">Search nearby</string>
+    <string name="scope_label">Show</string>
+    <string name="location_denied">Location permission denied. Using the fixed location.</string>
+    <string name="no_location_fix">No location fix available yet. Using the fixed location.</string>
+    <string name="search_results_hint">Search results appear here.</string>
+    <string name="show_results_on_map">Show results on map</string>
+    <string name="search_centre">Search centre</string>
+
+    <string name="map_incidents">Incidents</string>
+    <string name="map_roadworks">Roadworks</string>
+    <string name="map_show_all">Show all</string>
+    <string name="map_summary_all">%1$d situations shown</string>
+    <string name="map_summary_selected">%1$d selected situation(s) shown</string>
+
+    <string name="status_loading">Loading data</string>
+    <string name="status_updating">Updating. Last data %1$s</string>
+    <string name="status_live">Live data, updated %1$s. Contains Traffic Scotland data.</string>
+    <string name="status_offline">Offline. Showing saved data from %1$s. Contains Traffic Scotland data.</string>
+    <string name="status_error">No data available: %1$s</string>
+
+    <string name="about_title">About this app</string>
+    <string name="about_message">Contains Traffic Scotland data, supplied through the DATEX II feeds for unplanned events and current roadworks.\n\nSituation icons were drawn for this project as Android vector drawables (original work, no third-party artwork). Map by Google Maps.</string>
+
+    <string-array name="scope_options">
+        <item>All situations</item>
+        <item>Incidents only</item>
+        <item>Roadworks only</item>
+    </string-array>
+</resources>
